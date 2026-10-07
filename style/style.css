@@ -22,7 +22,7 @@
 
 
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', sans-serif;
 }
 
@@ -50,7 +50,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 
@@ -58,14 +58,15 @@ header>h1 {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
-    margin-bottom: 20px;
-    text-shadow: 5px 5px 0px black;
     font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    
 
 }
 
-header>p {
-    color: white;
+header > p {
+   color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     max-width: 500p;
@@ -86,12 +87,12 @@ nav {
     justify-content: space-between;
 }
 
-nav>a {
+nav > a {
     color: var(--cor1);
     padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
     transition-duration: 0.5s;
 
 
@@ -127,42 +128,28 @@ main h1 {
 main h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
-    font-weight: normal;
-
-}
-
-
-    main img {
-    width: 100%;
-    display: block;
-    margin: auto;
-}
-
-main img.pequena {
-   width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+    
 }
 
 main p {
-    margin: 15px 0px 15px 0px;
+    margin: 15px  0px;
     text-align: justify;
     text-indent: 30px;
-    line-height: 2em;
     font-size: 1.1em;
+    line-height: 2em;
+    
 }
 
 main strong {
     color: var(--cor4);
-    font-weight: bold;
-    padding: 2px 6px;
+    font-weight: bolder;
 
 }
+
 
 main a {
     text-decoration: none;
@@ -178,12 +165,23 @@ main a:hover {
 
 }
 
+    main img {
+    width: 100%;
+    
+}
+
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
 
 div.video {
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 56.25%;
+    padding-bottom: 57.25%;
     position: relative;
 }
 
@@ -215,14 +213,12 @@ aside>h3 {
 
 }
 
-aside>ul {
+aside > ul {
     list-style-type: "\2714\00a0\00a0";
     list-style-position: inside;
     columns: 2;
 
 }
-
-
 
 footer {
     background-color: var(--cor5);

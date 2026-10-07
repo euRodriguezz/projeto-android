@@ -132,6 +132,15 @@ main h2 {
 
 }
 
+main image{
+    width: 100%;
+}
+main img.pequena {
+    width:50%;
+    display:block;
+    margin:auto
+}
+
 main p {
     margin: 15px 0px 15px 0px;
     text-align: justify;
@@ -161,15 +170,6 @@ main a:hover {
 
 }
 
-main img {
-    width: 100%;
-
-}
-
-main img.pequena {
-    max-width: 350px;
-    display: block;
-}
 
 div.video {
     background-color: var(--cor5);

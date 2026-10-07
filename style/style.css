@@ -134,9 +134,13 @@ main h2 {
 
 }
 
-main image{
+
+    main img {
     width: 100%;
+    display: block;
+    margin: auto;
 }
+
 main img.pequena {
    width: 50%;
     display: block;
